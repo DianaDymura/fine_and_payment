@@ -91,11 +91,11 @@ let getFineNumber = () => {
     let amount = document.getElementById("amount");
     let fineNumber = getFineNumber();
     if (fineNumber === '001'){
-        return amount.value = 100
+       amount.value = 100
     } else if (fineNumber === '003'|| fineNumber === '004'|| fineNumber === '005') {
-        return amount.value = 200
+         amount.value = 200
     } else if (fineNumber === '002') {
-        return amount.value = 50
+        amount.value = 50
     } else {
         console.log ("Сума не співпадає")
     }
